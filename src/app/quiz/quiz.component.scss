@@ -60,13 +60,14 @@
         border: 2px solid black;
         background: white;
         transition: background 0.3s;
+        color: black;
 
         &.correct {
-            background-color: #90ee90; // verde claro
+            background-color: #90ee90;
         }
 
         &.wrong {
-            background-color: #f08080; // vermelho claro
+            background-color: #f08080;
         }
     }
 }
