@@ -7,7 +7,7 @@ export class TimerService {
   private stop$ = new Subject<void>();
 
   start(seconds: number): Observable<number> {
-    this.stop$.next(); // encerra o timer anterior, se houver
+    this.stop$.next();
 
     return interval(1000).pipe(
       take(seconds),

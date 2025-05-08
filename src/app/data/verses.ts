@@ -1,4 +1,6 @@
-export const VERSES = [
+import { IVerse } from "./verse.model";
+
+export const VERSES: IVerse[] = [
     { text: "Clama a mim, e eu te responderei, e te anunciarei coisas grandes e firmes, que não sabes.", reference: "Jeremias 33:3" },
     { text: "Disse o Senhor a Abrão: Sai-te da tua terra, da tua parentela e da casa de teu pai, para a terra que te mostrarei. Farei de ti uma grande nação, abençoar-te-ei, engrandecerei o teu nome, e tu serás uma bênção. Abençoarei os que te abençoarem e amaldiçoarei os que te amaldiçoarem; em ti serão benditas todas as famílias da terra.", reference: "Gênesis 12:1-3" },
     { text: "Posso todas as coisas naquele que me fortalece.", reference: "Filipenses 4:13" },
